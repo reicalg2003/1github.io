@@ -1,0 +1,12 @@
+/* 在此文件中，使用palette.css文件中的变量，你可以在此文件，直接覆盖主题的所有css样式，比如下面这些 */
+
+/*隐藏滚动条*/
+body::-webkit-scrollbar {
+     display: none;
+
+}
+body::-webkit-scrollbar-thumb {
+     background-color: rgb(5, 228, 253);
+     border-radius: 10px;
+     -webkit-box-shadow: inset 1px 50px 5px 2px rgb(0, 51, 255);
+}
